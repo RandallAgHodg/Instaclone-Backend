@@ -1,0 +1,29 @@
+{
+  "name": "instagram-clone-backend",
+  "version": "1.0.0",
+  "description": "A backend for an instagram clone",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Randall Agustín Hodgson",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.15.0",
+    "aws-sdk": "^2.707.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.1",
+    "graphql": "^15.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "resolutions": {
+    "fs-capacitor": "3.0.0"
+  }
+}
