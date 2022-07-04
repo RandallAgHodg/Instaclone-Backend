@@ -2,8 +2,7 @@ import awsUploadImage from "../utils/aws-upload-image.js";
 import Publication from "../models/publication.js";
 import { v4 as uuidv4 } from "uuid";
 import User from "../models/user.js";
-import Follow from "../models/Follow.js";
-import publication from "../models/publication.js";
+import Follow from "../models/follow.js";
 
 const publish = async (file, ctx) => {
   const { createReadStream, mimetype } = await file;

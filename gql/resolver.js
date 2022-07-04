@@ -1,4 +1,3 @@
-import { PubSub } from "apollo-server";
 import {
   addComment,
   getCommentsByPublicationId,
