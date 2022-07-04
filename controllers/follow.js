@@ -1,4 +1,4 @@
-import Follow from "../models/Follow.js";
+import Follow from "../models/follow.js";
 import User from "../models/user.js";
 
 const followUser = async (username, ctx) => {
